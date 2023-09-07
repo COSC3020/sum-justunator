@@ -1,5 +1,5 @@
 const fs = require('fs');
-const jsc = require('jsverify');
+const jsc = require('jsverify'); //This for some reason throws an error and I have no idea why
 
 eval(fs.readFileSync('code.js')+'');
 
